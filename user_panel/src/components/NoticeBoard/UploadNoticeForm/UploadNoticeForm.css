@@ -1,0 +1,66 @@
+.notice-upload-form {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+  max-width: 500px;
+}
+
+.notice-upload-form h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.notice-upload-form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.notice-upload-form input[type="text"],
+.notice-upload-form textarea,
+.notice-upload-form select {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  margin-top: 0.3rem;
+  font-size: 0.95rem;
+}
+
+.notice-upload-form input[type="file"] {
+  margin-top: 0.5rem;
+}
+
+.notice-upload-form button[type="submit"] {
+  background-color: #2563eb;
+  color: white;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.notice-upload-form button[type="submit"]:hover {
+  background-color: #1e40af;
+}
+
+.notice-upload-form .success {
+  color: #10b981;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.notice-upload-form .error {
+  color: #ef4444;
+  margin-top: 1rem;
+  font-weight: 500;
+}

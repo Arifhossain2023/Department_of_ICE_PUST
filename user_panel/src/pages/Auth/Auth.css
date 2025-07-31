@@ -1,0 +1,95 @@
+.auth-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f8f8f8;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-form input,
+.auth-form select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.auth-form button {
+  padding: 10px;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-auth {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.toggle-auth span {
+  color: #0d6efd;
+  cursor: pointer;
+  font-weight: 600;
+}
+.auth-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #f8f8f8;
+  position: relative;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-form input,
+.auth-form select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.auth-form button {
+  padding: 10px;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-auth {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.toggle-auth span {
+  color: #0d6efd;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.auth-close-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}

@@ -1,0 +1,105 @@
+body {
+  background-color: #bdcab2;
+}
+
+.ice-department-page-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  padding: 30px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: justify; /* ✅ Justify entire main content */
+}
+
+.site-header {
+  width: 100%;
+  margin-top: 0%;
+  margin-bottom: 20px;
+}
+
+.image-slider {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+  clip-path: none;
+  shape-outside: none;
+}
+
+.image-slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  clip-path: none;
+  display: block;
+}
+
+.section-divider {
+  margin: 40px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.department-section {
+  margin-bottom: 40px;
+}
+
+.section-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  border-bottom: 1px dashed #888;
+  padding-bottom: 5px;
+}
+
+.sub-heading {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.department-section p,
+.summary-section p {
+  margin-bottom: 15px;
+  text-align: justify; /* ✅ Ensure paragraphs are justified */
+}
+
+.detail-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  text-align: justify; /* ✅ Optional: list item texts also justified */
+}
+
+.nested-detail-list {
+  list-style-type: circle;
+  padding-left: 20px;
+  margin-top: 8px;
+  text-align: justify; /* ✅ Optional */
+}
+
+.detail-list li,
+.nested-detail-list li {
+  margin-bottom: 10px;
+}
+
+.list-item-label {
+  font-weight: 600;
+}
+
+.content-block {
+  margin-bottom: 30px;
+  text-align: justify; /* ✅ For reusable blocks */
+}
+
+.summary-section {
+  font-style: italic;
+  margin-top: 40px;
+  text-align: justify; /* ✅ Updated from center to justify */
+}
+
+.summary-text {
+  font-size: 1rem;
+}

@@ -1,0 +1,48 @@
+.view-batch-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f0fdf4;
+  border: 2px solid #bbf7d0;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(34, 197, 94, 0.2);
+}
+
+.batch-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #15803d;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.student-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.student-item {
+  background: #ecfdf5;
+  border: 1px solid #6ee7b7;
+  margin-bottom: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.student-item:hover {
+  background: #d1fae5;
+  transform: scale(1.02);
+}
+
+.student-link {
+  color: #0f766e;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.student-link:hover {
+  text-decoration: underline;
+  color: #115e59;
+}

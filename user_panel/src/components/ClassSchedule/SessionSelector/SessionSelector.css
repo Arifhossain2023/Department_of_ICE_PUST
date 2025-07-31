@@ -1,0 +1,28 @@
+/* SessionSelector.css */
+
+.session-selector-container {
+  margin-bottom: 1rem;
+}
+
+.session-selector-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.session-selector-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease;
+}
+
+.session-selector-select:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}

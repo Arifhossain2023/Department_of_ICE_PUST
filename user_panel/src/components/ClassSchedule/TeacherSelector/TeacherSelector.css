@@ -1,0 +1,25 @@
+.teacher-selector {
+  margin-bottom: 1rem;
+}
+
+.teacher-selector label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.teacher-selector select {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.teacher-selector select:focus {
+  border-color: #2563eb; /* blue-600 */
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2); /* soft blue */
+}

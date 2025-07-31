@@ -1,0 +1,162 @@
+/* UploadStudentInfo.css */
+
+form {
+  max-width: 720px;
+  margin: 30px auto;
+  padding: 30px 40px;
+  background: linear-gradient(135deg, #6b73ff 0%, #000dff 100%);
+  border-radius: 16px;
+  color: #fff;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
+}
+
+p {
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+input[type="file"] {
+  width: 100%;
+  padding: 10px 14px;
+  margin: 8px 0 20px 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
+  color: #222;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+input[type="file"]:focus {
+  box-shadow: 0 0 8px 3px #ffd700;
+  background-color: #fff;
+}
+
+label {
+  font-weight: 600;
+  margin-top: 10px;
+  display: block;
+  color: #fff;
+}
+
+button[type="submit"],
+button[type="button"] {
+  background: #ffd700;
+  color: #222;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 12px 8px 25px 0;
+  transition: background 0.3s ease;
+  box-shadow: 0 5px 15px rgba(255, 215, 0, 0.6);
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+  background: #e6c200;
+  box-shadow: 0 8px 20px rgba(230, 194, 0, 0.8);
+}
+
+h4 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  border-bottom: 2px solid #ffd700;
+  padding-bottom: 5px;
+  color: #fff;
+  text-shadow: 0 0 4px #000;
+}
+
+/* Each dynamic input group box */
+form > div > div {
+  background-color: #1e1e7d;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.15);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+form > div > div input,
+form > div > div select {
+  flex-grow: 1;
+  min-width: 120px;
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: #2931a6;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 10px;
+  transition: background-color 0.3s ease;
+}
+
+form > div > div input::placeholder {
+  color: #ddd;
+}
+
+form > div > div input:focus,
+form > div > div select:focus {
+  background-color: #3949f7;
+  outline: none;
+  color: #fff;
+}
+
+form > div > div button {
+  background: #ff6f61;
+  color: white;
+  border-radius: 8px;
+  padding: 6px 10px;
+  flex-shrink: 0;
+  font-weight: 600;
+  box-shadow: 0 3px 8px rgba(255,111,97,0.7);
+  transition: background-color 0.3s ease;
+}
+
+form > div > div button:hover {
+  background: #e05a4f;
+}
+
+img {
+  display: block;
+  margin: 10px auto 20px auto;
+  border-radius: 50%;
+  border: none;
+  box-shadow:none;
+}
+
+@media (max-width: 600px) {
+  form {
+    padding: 20px;
+  }
+
+  form > div > div {
+    flex-direction: column;
+  }
+
+  form > div > div input,
+  form > div > div select,
+  form > div > div button {
+    width: 100%;
+  }
+}

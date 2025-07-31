@@ -1,0 +1,101 @@
+/* ViewStudentDetails.css */
+
+.student-details {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fdf6f0;
+  border-radius: 12px;
+  padding: 25px 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.student-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-bottom: 2px solid #ff6f61;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+}
+
+.student-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ff6f61;
+}
+
+.student-info h2 {
+  margin: 0 0 12px 0;
+  font-size: 2.2rem;
+  color: #e94e1b;
+  text-shadow: 1px 1px 3px rgba(233, 78, 27, 0.7);
+}
+
+.student-info p {
+  font-size: 1.1rem;
+  margin: 6px 0;
+  color: #555;
+}
+
+.update-btn {
+  margin-top: 15px;
+  background: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-btn:hover {
+  background: #e94e1b;
+}
+
+.student-section {
+  margin-bottom: 30px;
+}
+
+.student-section h3 {
+  font-size: 1.6rem;
+  color: #ff6f61;
+  border-left: 5px solid #e94e1b;
+  padding-left: 12px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+}
+
+.student-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.student-section ul li {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  line-height: 1.4;
+  color: #444;
+}
+
+.student-section ul li strong {
+  color: #e94e1b;
+}
+
+.job-desc {
+  margin: 5px 0 0 18px;
+  font-style: italic;
+  color: #666;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ff6f61;
+  font-weight: bold;
+  margin-top: 50px;
+}

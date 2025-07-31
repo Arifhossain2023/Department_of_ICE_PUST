@@ -1,0 +1,58 @@
+.schedule-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.schedule-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2a63a6;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.shift-block {
+  margin-bottom: 25px;
+}
+
+.shift-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.class-card {
+  background: #f9f9f9;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.class-card:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+.class-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.class-info p {
+  margin: 4px 0;
+  flex: 1 1 45%;
+  font-size: 15px;
+}
+
+.class-info span {
+  font-weight: 600;
+}

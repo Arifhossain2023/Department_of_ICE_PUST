@@ -1,0 +1,36 @@
+.notice-list {
+  margin-top: 2rem;
+}
+
+.notice-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.notice-card:hover {
+  transform: scale(1.01);
+}
+
+.notice-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.25rem;
+}
+
+.notice-content {
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.notice-date {
+  font-size: 0.8rem;
+  text-align: right;
+  color: #9ca3af;
+  margin-top: 0.5rem;
+}

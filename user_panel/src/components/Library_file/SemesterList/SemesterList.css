@@ -1,0 +1,58 @@
+.semester-wrapper {
+  padding: 2rem;
+  max-width: 768px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #f0f9ff, #e0f2fe);
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.semester-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #1e3a8a; /* blue-900 */
+  border-bottom: 3px solid #1e3a8a;
+  padding-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.semester-list {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .semester-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.semester-item {
+  background-color: #ffffff;
+  border-left: 6px solid #2563eb; /* blue-600 */
+  padding: 1.25rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.semester-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(37, 99, 235, 0.2);
+}
+
+.semester-link {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1d4ed8;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.semester-link:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}

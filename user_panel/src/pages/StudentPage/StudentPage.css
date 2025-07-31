@@ -1,0 +1,63 @@
+.student-page {
+  padding: 2rem;
+  background: #f0f9ff;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.batch-list {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #e0f2fe;
+  padding: 2rem;
+  border-radius: 16px;
+  border: 2px solid #7dd3fc;
+  text-align: center;
+}
+
+.batch-list h2 {
+  font-size: 2rem;
+  color: #0369a1;
+  margin-bottom: 1.5rem;
+}
+
+.upload-btn {
+  background-color: #0284c7;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  margin-bottom: 2rem;
+}
+
+.upload-btn:hover {
+  background-color: #0369a1;
+  transform: scale(1.03);
+}
+
+.batch-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.batch-btn {
+  background-color: #bae6fd;
+  border: 2px solid #38bdf8;
+  color: #0c4a6e;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.batch-btn:hover {
+  background-color: #7dd3fc;
+  transform: scale(1.05);
+}
